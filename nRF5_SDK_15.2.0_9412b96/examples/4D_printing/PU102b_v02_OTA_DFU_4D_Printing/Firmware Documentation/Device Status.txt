@@ -1,0 +1,46 @@
+PU102R3 Version 0.01 Status
+
+
+##### HARDWARE FUNCTIONALITY ####
+
+DISPLAY:
+PSU Power:						IMPLEMENTED/TESTED
+Image Update:					IMPLEMENTED/TESTED
+
+
+BLE:
+GATT Chacteristics: 			IMPLEMENTED/TESTED
+Bidirectional Communication: 	IMPLEMENTED/TESTED
+Whitelisting:					IMPLEMENTED/TESTED
+Checksum:						IMPLEMENTED/TESTED
+
+
+ACCELEROMETER:
+Obtain Data:					IMPLEMENTED/TESTED
+Interrupt on Movement:			IMPLEMENTED/TESTED
+Interrupt on Angle Change:		IMPLEMENTED/TESTED
+
+LIGHT INTENSITY SENSOR:
+Obtain Data:					IMPLEMENTED/TESTED
+
+EEPROM:
+Store Byte:						IMPLEMENTED?/UNTESTED
+Store Page:						IMPLEMENTED?/UNTESTED
+Retrieve Byte:					IMPLEMENTED?/UNTESTED
+Retrieve Page:					IMPLEMENTED?/UNTESTED
+
+BATTERY MONITERING:
+Charger Status:					NOT IMPLEMENTED (need to swap hardware chip to MCP73832 and Pullup Resistor config)
+Battery Monitering IC			NOT IMPLEMENTED
+
+##### GENERAL FUNCTIONALITY ####
+
+Inactivity Sleeping:			INCOMPLETE
+Wake MCU on Movement:			INCOMPLETE
+Stealth Mode (TIME):			INCOMPLETE
+Stealth Mode (Opening):			INCOMPLETE
+Lid Status:						INCOMPLETE
+BLE Device Restart:				INCOMPLETE
+BLE Device Reset:				INCOMPLETE
+
+
