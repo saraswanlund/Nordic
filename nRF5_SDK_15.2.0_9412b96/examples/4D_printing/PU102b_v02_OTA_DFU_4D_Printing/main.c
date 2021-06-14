@@ -293,7 +293,7 @@ void saadc_init(void)
 int main(void)
 {
     log_init();
-    printf("Hello World! \n");
+    printf("Hello World! log init done \n\n");
    /* ret_code_t err_code;
     struct pl_i2c host_i2c;
     struct pl_i2c disp_i2c;
@@ -316,6 +316,7 @@ int main(void)
     // Example code for MDBT42Q NFC module (nRF52832 chip)
     // configure Pin 25 as Output
     nrf_gpio_cfg(25, NRF_GPIO_PIN_DIR_OUTPUT, NRF_GPIO_PIN_INPUT_DISCONNECT, NRF_GPIO_PIN_NOPULL, NRF_GPIO_PIN_H0H1,NRF_GPIO_PIN_NOSENSE);         
+    printf("gpio configured \n\n");
     Status_LED(1);
 
    // Blink_LED(5,500);
@@ -330,6 +331,7 @@ int main(void)
     }
 */
     timers_init();
+    printf("timers init done \n\n");
  //   err_code = nrfx_gpiote_init(); // Initialize pin interrupt driver
  //   APP_ERROR_CHECK(err_code);
 /*
@@ -340,12 +342,15 @@ int main(void)
 */
     //Initialize Bluetooth 
     power_management_init();
+    printf("power management init done \n\n");
   //  ble_stack_init(); //this line is stopping the code
    // gap_params_init();               
     gatt_init(); 
+    printf("gatt init done \n\n");
   //  services_init();  //this line is also stopping the code                   
   //  conn_params_init();                   
     peer_manager_init(); 
+    printf("peer manager init \n\n");
   //  advertising_init(false); //this line is also stopping the code
     //NVIC_SetPriority(SD_EVT_IRQn, 7);  //set lowest priority to BLE
     NRF_LOG_INFO("Bluetooth is Initialized");
