@@ -1,7 +1,7 @@
 Output/Release/Obj/ble_app_template_pca10040_s132/battery_moniter.o: \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\battery_moniter.c \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\battery_moniter.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdint.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -23,9 +23,9 @@ Output/Release/Obj/ble_app_template_pca10040_s132/battery_moniter.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/app_error.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdio.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/__crossworks.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdbool.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/nordic_common.h \
@@ -35,7 +35,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/battery_moniter.o: \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stddef.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
  ../../../../../../modules/nrfx/mdk/nrf_peripherals.h \
  ../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h \
  ../../../../../../integration/nrfx/nrfx_glue.h \
@@ -60,7 +60,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/battery_moniter.o: \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epdpsu.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epdc.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\wflib.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdlib.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdlib.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\dispinfo.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h \
@@ -69,7 +69,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/battery_moniter.o: \
  ../../../../../../modules/nrfx/hal/nrf_gpiote.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/string.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/string.h \
  ../../../../../../components/libraries/util/sdk_os.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
