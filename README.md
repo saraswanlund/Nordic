@@ -8,3 +8,7 @@ click on the file with name ble_app_template_pca10040_s132, the filetype should 
 this is the current code being used for the 4D printing project, it is constantly being changed, so the most recent changes will be under the experimental branch
 Tried and true code will be under main
 any old code we want to keep around will be in an archived branch
+
+Documentation links:
+Nordic Semiconductor infocenter: https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk5.v15.0.0%2Fgetting_started_softdevice.html&anchor=getting_started_sd
+^contains information on specific functions
