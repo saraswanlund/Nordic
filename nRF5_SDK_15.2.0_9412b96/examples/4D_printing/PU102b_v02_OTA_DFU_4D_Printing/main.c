@@ -294,7 +294,7 @@ int main(void)
 {
     log_init();
     printf("Hello World! \n");
-   ret_code_t err_code;
+   /*ret_code_t err_code;
     struct pl_i2c host_i2c;
     struct pl_i2c disp_i2c;
     struct pl_wflib_eeprom_ctx wflib_eeprom_ctx;
@@ -311,11 +311,11 @@ int main(void)
     };
     struct i2c_eeprom hw_eeprom = {
         &host_i2c, I2C_HWINFO_EEPROM_ADDR, EEPROM_CAT24M01,
-    };
+    };*/
 
     // Example code for MDBT42Q NFC module (nRF52832 chip)
     // configure Pin 25 as Output
-    nrf_gpio_cfg(25, NRF_GPIO_PIN_DIR_OUTPUT, NRF_GPIO_PIN_INPUT_DISCONNECT, NRF_GPIO_PIN_NOPULL, NRF_GPIO_PIN_H0H1,NRF_GPIO_PIN_NOSENSE);         
+    nrf_gpio_cfg(STATUS_PIN, NRF_GPIO_PIN_DIR_OUTPUT, NRF_GPIO_PIN_INPUT_DISCONNECT, NRF_GPIO_PIN_NOPULL, NRF_GPIO_PIN_H0H1,NRF_GPIO_PIN_NOSENSE);         
     Status_LED(1);
 
    // Blink_LED(5,500);
@@ -323,21 +323,21 @@ int main(void)
 
     // Initialize the async SVCI interface to bootloader before any interrupts are enabled. - 5.12.2020 SJE
     printf("Initializing the async SVCI interface to bootloader\n");
-    err_code = ble_dfu_buttonless_async_svci_init();
+    /*err_code = ble_dfu_buttonless_async_svci_init();
     APP_ERROR_CHECK(err_code);
     if(err_code != NRF_SUCCESS){
         printf("Error in Configuring BLE DFU Service \n");
-    }
+    }*/
 
     timers_init();
-    err_code = nrfx_gpiote_init(); // Initialize pin interrupt driver
+    /*err_code = nrfx_gpiote_init(); // Initialize pin interrupt driver
     APP_ERROR_CHECK(err_code);
 
     saadc_init();
     saadc_sampling_event_init();
     saadc_sampling_event_enable();
     printf("SAADC HAL simple example started.");
-
+*/
     //Initialize Bluetooth 
     power_management_init();
     ble_stack_init(); //this line is stopping the code
