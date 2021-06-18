@@ -1236,8 +1236,9 @@ m_pl_twim:
 	.section .rodata
 	.align	2
 .LC0:
-	.ascii	"C:\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_p"
-	.ascii	"rinting\\PU102b_v02_OTA_DFU_4D_Printing\\pl_i2c.c\000"
+	.ascii	"C:\\nordic\\Nordic\\nRF5_SDK_15.2.0_9412b96\\exampl"
+	.ascii	"es\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl"
+	.ascii	"_i2c.c\000"
 	.section	.text.pl_i2c_reg_read_8,"ax",%progbits
 	.align	1
 	.global	pl_i2c_reg_read_8
@@ -1248,7 +1249,7 @@ m_pl_twim:
 	.type	pl_i2c_reg_read_8, %function
 pl_i2c_reg_read_8:
 .LFB276:
-	.file 3 "C:\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl_i2c.c"
+	.file 3 "C:\\nordic\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl_i2c.c"
 	.loc 3 33 1
 	@ args = 0, pretend = 0, frame = 24
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -2385,14 +2386,14 @@ write_i2c_data_8:
 .LEFDE106:
 	.text
 .Letext0:
-	.file 4 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50/include/stdint.h"
+	.file 4 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/include/stdint.h"
 	.file 5 "../../../../../../modules/nrfx/mdk/nrf52.h"
 	.file 6 "../../../../../../components/libraries/util/sdk_errors.h"
 	.file 7 "../../../../../../modules/nrfx/drivers/include/nrfx_twim.h"
 	.file 8 "../../../../../../components/libraries/util/app_util_platform.h"
 	.file 9 "../../../../../../modules/nrfx/hal/nrf_twi.h"
 	.file 10 "../../../../../../modules/nrfx/drivers/include/nrfx_twi.h"
-	.file 11 "C:\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl_i2c.h"
+	.file 11 "C:\\nordic\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl_i2c.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x1c4e
@@ -7318,14 +7319,14 @@ write_i2c_data_8:
 	.byte	0x7
 	.4byte	.Ldebug_macro3
 	.byte	0x4
-	.file 13 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50/include/stdio.h"
+	.file 13 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/include/stdio.h"
 	.byte	0x3
 	.uleb128 0x36
 	.uleb128 0xd
 	.byte	0x5
 	.uleb128 0x27
 	.4byte	.LASF522
-	.file 14 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50/include/__crossworks.h"
+	.file 14 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/include/__crossworks.h"
 	.byte	0x3
 	.uleb128 0x2c
 	.uleb128 0xe
@@ -7335,7 +7336,7 @@ write_i2c_data_8:
 	.byte	0x7
 	.4byte	.Ldebug_macro5
 	.byte	0x4
-	.file 15 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50/include/stdbool.h"
+	.file 15 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/include/stdbool.h"
 	.byte	0x3
 	.uleb128 0x37
 	.uleb128 0xf
@@ -7502,7 +7503,7 @@ write_i2c_data_8:
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF10745
-	.file 34 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50/include/stddef.h"
+	.file 34 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/include/stddef.h"
 	.byte	0x3
 	.uleb128 0x2d
 	.uleb128 0x22
@@ -7741,7 +7742,7 @@ write_i2c_data_8:
 	.byte	0x5
 	.uleb128 0x33
 	.4byte	.LASF11934
-	.file 54 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50/include/string.h"
+	.file 54 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/include/string.h"
 	.byte	0x3
 	.uleb128 0x37
 	.uleb128 0x36
@@ -7848,7 +7849,7 @@ write_i2c_data_8:
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF12069
-	.file 66 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50/include/stdlib.h"
+	.file 66 "C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/include/stdlib.h"
 	.byte	0x3
 	.uleb128 0x33
 	.uleb128 0x42
@@ -7884,7 +7885,7 @@ write_i2c_data_8:
 	.byte	0x7
 	.4byte	.Ldebug_macro59
 	.byte	0x4
-	.file 69 "C:\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl_endian.h"
+	.file 69 "C:\\nordic\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl_endian.h"
 	.byte	0x3
 	.uleb128 0x13
 	.uleb128 0x45
@@ -7897,7 +7898,7 @@ write_i2c_data_8:
 	.4byte	.LASF12117
 	.byte	0x4
 	.byte	0
-	.section	.debug_macro,"G",%progbits,wm4.0.85ba78580184a8c8b3486316390ef55b,comdat
+	.section	.debug_macro,"G",%progbits,wm4.0.68a84fce922a13b9b72a379d7b67ac35,comdat
 .Ldebug_macro2:
 	.2byte	0x4
 	.byte	0
@@ -46334,8 +46335,6 @@ write_i2c_data_8:
 	.ascii	"NRF_TWI_SENSOR_ENABLED 0\000"
 .LASF12247:
 	.ascii	"soc_ecb_cleartext_t\000"
-.LASF5897:
-	.ascii	"PPI_CHENCLR_CH21_Pos (21UL)\000"
 .LASF3715:
 	.ascii	"MWU_PREGION_SUBS_SR3_Exclude (0UL)\000"
 .LASF11620:
@@ -47041,8 +47040,6 @@ write_i2c_data_8:
 	.ascii	"__UINT_FAST8_MAX__ 0xffffffffU\000"
 .LASF3239:
 	.ascii	"MWU_PERREGION_SUBSTATWA_SR14_NoAccess (0UL)\000"
-.LASF7107:
-	.ascii	"SAADC_INTENSET_CH4LIMITH_Enabled (1UL)\000"
 .LASF3046:
 	.ascii	"MWU_NMIEN_REGION0WA_Msk (0x1UL << MWU_NMIEN_REGION0"
 	.ascii	"WA_Pos)\000"
@@ -47652,6 +47649,8 @@ write_i2c_data_8:
 	.ascii	"NRFX_SAADC_CONFIG_LOG_LEVEL SAADC_CONFIG_LOG_LEVEL\000"
 .LASF10980:
 	.ascii	"NRFX_I2S_CONFIG_LOG_ENABLED\000"
+.LASF9334:
+	.ascii	"PPI_CHG2_CH13_Pos PPI_CHG_CH13_Pos\000"
 .LASF8681:
 	.ascii	"WDT_REQSTATUS_RR5_Pos (5UL)\000"
 .LASF11723:
@@ -49188,9 +49187,6 @@ write_i2c_data_8:
 	.ascii	", 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 2"
 	.ascii	"4, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, "
 	.ascii	"11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0)\000"
-.LASF12430:
-	.ascii	"C:\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_p"
-	.ascii	"rinting\\PU102b_v02_OTA_DFU_4D_Printing\\pl_i2c.c\000"
 .LASF4451:
 	.ascii	"GPIO_OUTCLR_PIN21_Low (0UL)\000"
 .LASF1144:
@@ -50578,8 +50574,10 @@ write_i2c_data_8:
 	.ascii	"__QQ_FBIT__ 7\000"
 .LASF12139:
 	.ascii	"TASKS_STARTTX\000"
-.LASF5327:
-	.ascii	"PDM_INTENCLR_STOPPED_Pos (1UL)\000"
+.LASF12431:
+	.ascii	"C:\\nordic\\Nordic\\nRF5_SDK_15.2.0_9412b96\\exampl"
+	.ascii	"es\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pc"
+	.ascii	"a10040\\s132\\ses\000"
 .LASF9880:
 	.ascii	"NRFX_PWM_CONFIG_LOG_LEVEL 3\000"
 .LASF10867:
@@ -51083,6 +51081,8 @@ write_i2c_data_8:
 	.ascii	"REPEAT_7(macro, __VA_ARGS__)\000"
 .LASF5886:
 	.ascii	"PPI_CHENCLR_CH24_Clear (1UL)\000"
+.LASF6523:
+	.ascii	"RADIO_INTENSET_END_Set (1UL)\000"
 .LASF6633:
 	.ascii	"RADIO_PCNF0_PLEN_8bit (0UL)\000"
 .LASF10428:
@@ -52043,9 +52043,6 @@ write_i2c_data_8:
 .LASF3382:
 	.ascii	"MWU_PERREGION_SUBSTATRA_SR10_Msk (0x1UL << MWU_PERR"
 	.ascii	"EGION_SUBSTATRA_SR10_Pos)\000"
-.LASF9469:
-	.ascii	"I2S_CONFIG_ALIGN_ALIGN_RIGHT I2S_CONFIG_ALIGN_ALIGN"
-	.ascii	"_Right\000"
 .LASF10633:
 	.ascii	"HAL_NFC_CONFIG_LOG_ENABLED 0\000"
 .LASF6301:
@@ -52854,8 +52851,8 @@ write_i2c_data_8:
 	.ascii	"nrfx_timer_0_irq_handler TIMER0_IRQHandler\000"
 .LASF4297:
 	.ascii	"GPIO_OUTSET_PIN20_High (1UL)\000"
-.LASF7861:
-	.ascii	"TWI_INTENSET_TXDSENT_Pos (7UL)\000"
+.LASF8119:
+	.ascii	"TWIS_SHORTS_WRITE_SUSPEND_Pos (13UL)\000"
 .LASF12052:
 	.ascii	"NRF_LOG_HEXDUMP_INST_WARNING(p_inst,p_data,len) NRF"
 	.ascii	"_LOG_INTERNAL_HEXDUMP_INST_WARNING(p_inst, p_data, "
@@ -52967,8 +52964,9 @@ write_i2c_data_8:
 	.ascii	"_Enabled\000"
 .LASF4708:
 	.ascii	"GPIO_DIR_PIN26_Msk (0x1UL << GPIO_DIR_PIN26_Pos)\000"
-.LASF8119:
-	.ascii	"TWIS_SHORTS_WRITE_SUSPEND_Pos (13UL)\000"
+.LASF9469:
+	.ascii	"I2S_CONFIG_ALIGN_ALIGN_RIGHT I2S_CONFIG_ALIGN_ALIGN"
+	.ascii	"_Right\000"
 .LASF7819:
 	.ascii	"TIMER_INTENCLR_COMPARE0_Msk (0x1UL << TIMER_INTENCL"
 	.ascii	"R_COMPARE0_Pos)\000"
@@ -53190,8 +53188,8 @@ write_i2c_data_8:
 	.ascii	"MWU_REGIONENSET_RGN2RA_Set (1UL)\000"
 .LASF1680:
 	.ascii	"BPROT_CONFIG2_REGION66_Disabled (0UL)\000"
-.LASF6523:
-	.ascii	"RADIO_INTENSET_END_Set (1UL)\000"
+.LASF7107:
+	.ascii	"SAADC_INTENSET_CH4LIMITH_Enabled (1UL)\000"
 .LASF12313:
 	.ascii	"m_error_flag\000"
 .LASF9806:
@@ -55432,8 +55430,6 @@ write_i2c_data_8:
 	.ascii	"COMP_PSEL_PSEL_AnalogInput5 (5UL)\000"
 .LASF6598:
 	.ascii	"RADIO_RXMATCH_RXMATCH_Pos (0UL)\000"
-.LASF5711:
-	.ascii	"PPI_CHENSET_CH27_Set (1UL)\000"
 .LASF1120:
 	.ascii	"CoreDebug ((CoreDebug_Type *) CoreDebug_BASE)\000"
 .LASF4538:
@@ -56348,6 +56344,8 @@ write_i2c_data_8:
 	.ascii	"ARG_1(BRACKET_EXTRACT(n_list)), __VA_ARGS__) MACRO_"
 	.ascii	"REPEAT_FOR_28((GET_ARGS_AFTER_1(BRACKET_EXTRACT(n_l"
 	.ascii	"ist))), macro, __VA_ARGS__)\000"
+.LASF9832:
+	.ascii	"NRFX_LPCOMP_CONFIG_IRQ_PRIORITY 6\000"
 .LASF12025:
 	.ascii	"NRF_LOG_INTERNAL_RAW_INFO(...) NRF_LOG_INTERNAL_MOD"
 	.ascii	"ULE(NRF_LOG_SEVERITY_INFO, NRF_LOG_SEVERITY_INFO_RA"
@@ -57980,7 +57978,7 @@ write_i2c_data_8:
 .LASF4329:
 	.ascii	"GPIO_OUTSET_PIN13_Pos (13UL)\000"
 .LASF445:
-	.ascii	"__SES_VERSION 55000\000"
+	.ascii	"__SES_VERSION 55001\000"
 .LASF5546:
 	.ascii	"POWER_RAM_POWERSET_S0POWER_On (1UL)\000"
 .LASF3278:
@@ -58524,8 +58522,8 @@ write_i2c_data_8:
 	.ascii	"WDT_RREN_RR4_Enabled (1UL)\000"
 .LASF9509:
 	.ascii	"NRF_ERROR_PERIPH_DRIVERS_ERR_BASE (0x8200)\000"
-.LASF3817:
-	.ascii	"NFCT_INTENSET_ENDTX_Pos (12UL)\000"
+.LASF5711:
+	.ascii	"PPI_CHENSET_CH27_Set (1UL)\000"
 .LASF10243:
 	.ascii	"APP_USBD_HID_MOUSE_ENABLED 0\000"
 .LASF1561:
@@ -58741,8 +58739,8 @@ write_i2c_data_8:
 	.ascii	"INTENCLR\000"
 .LASF10855:
 	.ascii	"UARTE_PRESENT \000"
-.LASF6589:
-	.ascii	"RADIO_INTENCLR_READY_Pos (0UL)\000"
+.LASF5897:
+	.ascii	"PPI_CHENCLR_CH21_Pos (21UL)\000"
 .LASF12336:
 	.ascii	"result\000"
 .LASF275:
@@ -59894,6 +59892,8 @@ write_i2c_data_8:
 .LASF3642:
 	.ascii	"MWU_PREGION_SUBS_SR21_Msk (0x1UL << MWU_PREGION_SUB"
 	.ascii	"S_SR21_Pos)\000"
+.LASF3817:
+	.ascii	"NFCT_INTENSET_ENDTX_Pos (12UL)\000"
 .LASF2722:
 	.ascii	"I2S_PSEL_SDOUT_PIN_Pos (0UL)\000"
 .LASF3675:
@@ -61415,6 +61415,8 @@ write_i2c_data_8:
 	.ascii	"NRFX_PWM_DEFAULT_CONFIG_OUT2_PIN 31\000"
 .LASF9938:
 	.ascii	"NRFX_SPIM_NRF52_ANOMALY_109_WORKAROUND_ENABLED 0\000"
+.LASF7861:
+	.ascii	"TWI_INTENSET_TXDSENT_Pos (7UL)\000"
 .LASF4544:
 	.ascii	"GPIO_OUTCLR_PIN2_Pos (2UL)\000"
 .LASF7579:
@@ -62424,6 +62426,8 @@ write_i2c_data_8:
 	.ascii	"NFCT_INTENCLR_ENDRX_Pos (11UL)\000"
 .LASF10671:
 	.ascii	"SEGGER_RTT_CONFIG_DEFAULT_MODE 1\000"
+.LASF6589:
+	.ascii	"RADIO_INTENCLR_READY_Pos (0UL)\000"
 .LASF1337:
 	.ascii	"BPROT_CONFIG0_REGION23_Enabled (1UL)\000"
 .LASF5307:
@@ -63316,8 +63320,6 @@ write_i2c_data_8:
 	.ascii	"ECB_INTENSET_ERRORECB_Enabled (1UL)\000"
 .LASF10325:
 	.ascii	"NRF_PWR_MGMT_CONFIG_STANDBY_TIMEOUT_S 3\000"
-.LASF2668:
-	.ascii	"I2S_CONFIG_RATIO_RATIO_384X (7UL)\000"
 .LASF3628:
 	.ascii	"MWU_PREGION_SUBS_SR25_Include (1UL)\000"
 .LASF715:
@@ -67084,8 +67086,6 @@ write_i2c_data_8:
 .LASF4380:
 	.ascii	"GPIO_OUTSET_PIN3_Msk (0x1UL << GPIO_OUTSET_PIN3_Pos"
 	.ascii	")\000"
-.LASF7103:
-	.ascii	"SAADC_INTENSET_CH4LIMITL_Set (1UL)\000"
 .LASF2231:
 	.ascii	"EGU_INTENSET_TRIGGERED8_Pos (8UL)\000"
 .LASF2938:
@@ -70229,6 +70229,10 @@ write_i2c_data_8:
 	.ascii	"PDM_INTEN_STOPPED_Pos (1UL)\000"
 .LASF6021:
 	.ascii	"PPI_CHG_CH29_Excluded (0UL)\000"
+.LASF12430:
+	.ascii	"C:\\nordic\\Nordic\\nRF5_SDK_15.2.0_9412b96\\exampl"
+	.ascii	"es\\4D_printing\\PU102b_v02_OTA_DFU_4D_Printing\\pl"
+	.ascii	"_i2c.c\000"
 .LASF7136:
 	.ascii	"SAADC_INTENSET_CH1LIMITH_Disabled (0UL)\000"
 .LASF3484:
@@ -70438,10 +70442,6 @@ write_i2c_data_8:
 	.ascii	"_CONFIG_MCKFREQ_MCKFREQ_Pos)\000"
 .LASF11012:
 	.ascii	"NRFX_PDM_CONFIG_EDGE\000"
-.LASF12431:
-	.ascii	"C:\\Nordic\\nRF5_SDK_15.2.0_9412b96\\examples\\4D_p"
-	.ascii	"rinting\\PU102b_v02_OTA_DFU_4D_Printing\\pca10040\\"
-	.ascii	"s132\\ses\000"
 .LASF10973:
 	.ascii	"NRFX_I2S_CONFIG_CHANNELS I2S_CONFIG_CHANNELS\000"
 .LASF2251:
@@ -71599,6 +71599,8 @@ write_i2c_data_8:
 	.ascii	"NRF_QDEC_BASE 0x40012000UL\000"
 .LASF12178:
 	.ascii	"PSELSDA\000"
+.LASF5327:
+	.ascii	"PDM_INTENCLR_STOPPED_Pos (1UL)\000"
 .LASF9267:
 	.ascii	"PPI_CHG1_CH14_Msk PPI_CHG_CH14_Msk\000"
 .LASF5796:
@@ -71805,8 +71807,8 @@ write_i2c_data_8:
 	.ascii	"__SIZEOF_SIZE_T__ 4\000"
 .LASF11373:
 	.ascii	"NRFX_TWIS_CONFIG_DEBUG_COLOR\000"
-.LASF9832:
-	.ascii	"NRFX_LPCOMP_CONFIG_IRQ_PRIORITY 6\000"
+.LASF2668:
+	.ascii	"I2S_CONFIG_RATIO_RATIO_384X (7UL)\000"
 .LASF8333:
 	.ascii	"UART_ERRORSRC_FRAMING_Pos (2UL)\000"
 .LASF9006:
@@ -72205,8 +72207,8 @@ write_i2c_data_8:
 	.ascii	"NRFX_TIMER_CONFIG_LOG_LEVEL TIMER_CONFIG_LOG_LEVEL\000"
 .LASF9904:
 	.ascii	"NRFX_RNG_CONFIG_LOG_LEVEL 3\000"
-.LASF9334:
-	.ascii	"PPI_CHG2_CH13_Pos PPI_CHG_CH13_Pos\000"
+.LASF7103:
+	.ascii	"SAADC_INTENSET_CH4LIMITL_Set (1UL)\000"
 .LASF709:
 	.ascii	"SCB_CCR_NONBASETHRDENA_Pos 0U\000"
 .LASF1448:

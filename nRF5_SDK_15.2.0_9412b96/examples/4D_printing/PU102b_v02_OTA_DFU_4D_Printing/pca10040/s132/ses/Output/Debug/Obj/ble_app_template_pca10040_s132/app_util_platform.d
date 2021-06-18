@@ -1,7 +1,7 @@
 Output/Debug/Obj/ble_app_template_pca10040_s132/app_util_platform.o: \
- C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_util_platform.c \
- C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_util_platform.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdint.h \
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_util_platform.c \
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_util_platform.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
@@ -20,12 +20,12 @@ Output/Debug/Obj/ble_app_template_pca10040_s132/app_util_platform.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
- C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\nrf_assert.h \
- C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_error.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdio.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/__crossworks.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdbool.h \
- C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\sdk_errors.h \
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\nrf_assert.h \
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_error.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
- C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\nordic_common.h \
- C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_error_weak.h
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\nordic_common.h \
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\util\app_error_weak.h
