@@ -3,6 +3,7 @@
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
   <BreakpointListItem trigger="" line="431" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../../../../components/ble/ble_advertising/ble_advertising.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
@@ -69,9 +70,15 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
+<<<<<<< HEAD
   <SessionOpenFile windowGroup="DockEditLeft" x="23" y="338" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="336" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="56" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.h" selected="0" top="42" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="2" y="411" useTextEdit="1" openedFrom="C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/4D_printing/PU102b_v02_OTA_DFU_4D_Printing/main.c" useBinaryEdit="0" left="0" path="../../../bluetooth.c" selected="0" top="409" codecName="Default"/>
+=======
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="301" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="330" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="32" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.h" selected="0" top="9" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="1485" useTextEdit="1" openedFrom="C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/4D_printing/PU102b_v02_OTA_DFU_4D_Printing/main.c" useBinaryEdit="0" left="0" path="../../../bluetooth.c" selected="0" top="1471" codecName="Default"/>
+>>>>>>> 3013a703d9011859428568417d31fbcb63ab116b
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="43" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../bluetooth.h" selected="0" top="45" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="25" y="1247" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="1230" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="29" y="506" useTextEdit="1" openedFrom="C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/4D_printing/PU102b_v02_OTA_DFU_4D_Printing/main.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/hal/nrf_gpio.h" selected="0" top="492" codecName="Default"/>
