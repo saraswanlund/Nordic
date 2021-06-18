@@ -179,7 +179,7 @@ static uint32_t              m_adc_evt_counter;
 void timer_handler(nrf_timer_event_t event_type, void * p_context)
 {
 
-}
+};
 
 
 void saadc_sampling_event_init(void)
@@ -304,35 +304,29 @@ int main(void)
     printf("SWK PU102 RevB - Software v02 with OTA DFU & Alexa \n");
 
     timers_init();
-    printf("timers init done \n\n");
- 
+
     //Initialize Bluetooth 
     power_management_init();
-    printf("power management init done \n\n");
     ble_stack_init(); 
     gap_params_init();               
     gatt_init(); 
-    printf("gatt init done \n\n");
     services_init();                     
     conn_params_init();                   
     peer_manager_init(); 
-    printf("peer manager init \n\n");
-    advertising_init(false); 
-    NVIC_SetPriority(SD_EVT_IRQn, 7);  //set lowest priority to BLE
-    NRF_LOG_INFO("Bluetooth is Initialized");
-    printf("Bluetooth is Initialized.\n");
+    advertising_init(false);
+    timers_init();
+    printf("timers init done \n\n");
 
     // Start Execution
     application_timers_start();
     advertising_start(false);            //true on erasing bonds - meaning deleting every previous bonding information on nRF chip
-                                         
                                          // false on erasing bonds - nRF will not delete any previous bonding information
 
     Status_LED(0);
     // Enter main loop.
     while(1)
    {
-//      NRF_LOG_FLUSH();
+      NRF_LOG_FLUSH();
 
       if(BT_connectionG == 1){
           Status_LED(1);

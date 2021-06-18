@@ -1,9 +1,17 @@
 Output/Release/Obj/ble_app_template_pca10040_s132/ble_link_ctx_manager.o: \
+<<<<<<< HEAD
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\ble\ble_link_ctx_manager\ble_link_ctx_manager.c \
+ C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\components\ble\ble_link_ctx_manager\ble_link_ctx_manager.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
+ ../../../../../../components/ble/common/ble_conn_state.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
+=======
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\ble\ble_link_ctx_manager\ble_link_ctx_manager.c \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\ble\ble_link_ctx_manager\ble_link_ctx_manager.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdint.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
  ../../../../../../components/ble/common/ble_conn_state.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdbool.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
+>>>>>>> c6f6c51dac9b7ced58d912daaad983cd6925abcb
  ../../../../../../components/softdevice/s132/headers/ble.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
@@ -31,8 +39,13 @@ Output/Release/Obj/ble_app_template_pca10040_s132/ble_link_ctx_manager.o: \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
  ../../../../../../components/libraries/atomic/nrf_atomic.h \
  ../../../../../../components/libraries/util/sdk_common.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/string.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/__crossworks.h \
+<<<<<<< HEAD
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/string.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+=======
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/string.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+>>>>>>> c6f6c51dac9b7ced58d912daaad983cd6925abcb
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
@@ -40,7 +53,11 @@ Output/Release/Obj/ble_app_template_pca10040_s132/ble_link_ctx_manager.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_util.h \
- C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stddef.h \
+<<<<<<< HEAD
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
+=======
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
+>>>>>>> c6f6c51dac9b7ced58d912daaad983cd6925abcb
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/sdk_errors.h
