@@ -293,7 +293,7 @@ void saadc_init(void)
 int main(void)
 {
     log_init();
-    printf("Hello World! \n");
+    printf("Hello World! \n\n");
    /*ret_code_t err_code;
     struct pl_i2c host_i2c;
     struct pl_i2c disp_i2c;
@@ -319,10 +319,10 @@ int main(void)
     Status_LED(1);
 
    // Blink_LED(5,500);
-    printf("SWK PU102 RevB - Software v02 with OTA DFU & Alexa \n");
+    printf("SWK PU102 RevB - Software v02 with OTA DFU & Alexa \n\n");
 
     // Initialize the async SVCI interface to bootloader before any interrupts are enabled. - 5.12.2020 SJE
-    printf("Initializing the async SVCI interface to bootloader\n");
+    printf("Initializing the async SVCI interface to bootloader\n\n");
     /*err_code = ble_dfu_buttonless_async_svci_init();
     APP_ERROR_CHECK(err_code);
     if(err_code != NRF_SUCCESS){
@@ -331,13 +331,13 @@ int main(void)
 
     timers_init();
     /*err_code = nrfx_gpiote_init(); // Initialize pin interrupt driver
-    APP_ERROR_CHECK(err_code);
+    APP_ERROR_CHECK(err_code);*/
 
     saadc_init();
     saadc_sampling_event_init();
     saadc_sampling_event_enable();
-    printf("SAADC HAL simple example started.");
-*/
+    printf("SAADC HAL simple example started. \n\n");
+
     //Initialize Bluetooth 
     power_management_init();
     ble_stack_init(); //this line is stopping the code
@@ -349,7 +349,7 @@ int main(void)
     advertising_init(false); //this line is also stopping the code
     NVIC_SetPriority(SD_EVT_IRQn, 7);  //set lowest priority to BLE
     NRF_LOG_INFO("Bluetooth is Initialized");
-    printf("Bluetooth is Initialized.\n");
+    printf("Bluetooth is Initialized.\n\n");
 
     // Start Execution
     application_timers_start();
