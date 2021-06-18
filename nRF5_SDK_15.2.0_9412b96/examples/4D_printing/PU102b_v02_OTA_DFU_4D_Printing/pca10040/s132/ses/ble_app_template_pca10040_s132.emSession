@@ -39,11 +39,14 @@
  </Watch4>
  <Files>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="290" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="9" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_nus/ble_nus.h" selected="1" top="46" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="ble_app_template_pca10040_s132" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 =======
+=======
+>>>>>>> parent of c6f6c51 (nothing modded, nothing gained)
   <SessionOpenFile windowGroup="DockEditLeft" x="20" y="340" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="325" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="56" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.h" selected="0" top="42" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="2" y="411" useTextEdit="1" openedFrom="C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/4D_printing/PU102b_v02_OTA_DFU_4D_Printing/main.c" useBinaryEdit="0" left="0" path="../../../bluetooth.c" selected="0" top="409" codecName="Default"/>
@@ -53,5 +56,8 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="10" y="103" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="81" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="ble_app_template_pca10040_s132" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="C:/Nordic SDK/tes/nRF5_SDK_15.2.0_9412b96/modules/nrfx/mdk/ses_startup_nrf52.s&#xa;&#xa;C:/Nordic SDK/tes/nRF5_SDK_15.2.0_9412b96/modules/nrfx/mdk/ses_startup_nrf_common.s&#xa;&#xa;C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/Tupperware/BLE_PL_Working_Notsync/eeprom-i2c.c&#xa;&#xa;C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/Tupperware/BLE_PL_Working_Notsync/epdpsu.c&#xa;&#xa;C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/Tupperware/BLE_PL_Working_Notsync/epson-epdc.c&#xa;&#xa;C:/Nordic/nRF5_SDK_15.2.0_9412b96/modules/nrfx/mdk/ses_startup_nrf52.s&#xa;&#xa;C:/Nordic/nRF5_SDK_15.2.0_9412b96/modules/nrfx/mdk/ses_startup_nrf_common.s&#xa;&#xa;C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.10a/source/thumb_crt0.s&#xa;&#xa;C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.12/source/thumb_crt0.s&#xa;&#xa;D:/Documents and Files/Sync Folders/Drop/Work/modules/nrfx/mdk/ses_startup_nrf52.s&#xa;&#xa;D:/Documents and Files/Sync Folders/Drop/Work/modules/nrfx/mdk/ses_startup_nrf_common.s&#xa;&#xa;D:/Documents and Files/Sync Folders/Drop/Work/Program/NRF52832 BLE/ble_app_template/pl_endian.c&#xa;&#xa;G:/Own Cloud/Main/Drop/Work/modules/nrfx/drivers/src/nrfx_clock.c&#xa;&#xa;G:/Own Cloud/Main/Drop/Work/modules/nrfx/drivers/src/nrfx_gpiote.c&#xa;&#xa;H:/Sync Files/Owncloud/Work/Code in Progress/Segger/modules/nrfx/drivers/src/nrfx_clock.c&#xa;&#xa;H:/Sync Files/Owncloud/Work/Code in Progress/Segger/modules/nrfx/drivers/src/nrfx_gpiote.c&#xa;&#xa;H:/Sync Files/Owncloud/Work/Code in Progress/Segger/modules/nrfx/mdk/ses_startup_nrf52.s&#xa;&#xa;H:/Sync Files/Owncloud/Work/Code in Progress/Segger/modules/nrfx/mdk/ses_startup_nrf_common.s&#xa;&#xa;H:/Sync Files/Owncloud/Work/Code in Progress/Work/Program/NRF52832 BLE/ble_app_template/bluetooth.c&#xa;&#xa;H:/Sync Files/Owncloud/Work/Code in Progress/Work/Program/NRF52832 BLE/ble_app_template/pl_i2c.c&#xa;&#xa;H:/Sync Files/Owncloud/Work/Code in Progress/Work/Program/NRF52832 BLE/ble_app_template/pl_spi.c&#xa;" fileDialogInitialDirectory="C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/Tupperware/PU102b_v02_OTA_DFU_Alexa" debugSearchPath="" autoConnectCapabilities="3711"/>
+<<<<<<< HEAD
+>>>>>>> parent of c6f6c51 (nothing modded, nothing gained)
+=======
 >>>>>>> parent of c6f6c51 (nothing modded, nothing gained)
 </session>
