@@ -59,8 +59,11 @@
 int main(void)
 {
     /* Configure board. */
+    printf(BSP_INIT_LEDS);
     bsp_board_init(BSP_INIT_LEDS);
-
+  
+    printf(LEDS_NUMBER);
+  
     /* Toggle LEDs. */
     while (true)
     {

@@ -293,68 +293,49 @@ void saadc_init(void)
 int main(void)
 {
     log_init();
-    printf("Hello World! \n");
-   ret_code_t err_code;
-    struct pl_i2c host_i2c;
-    struct pl_i2c disp_i2c;
-    struct pl_wflib_eeprom_ctx wflib_eeprom_ctx;
-    struct pl_dispinfo dispinfo;
-    struct vcom_cal vcom_cal;
-    struct s1d13541 s1d13541 = { &g_s1d13541_data, &g_plat.gpio };
-    struct pl_epdc *epdc = &g_plat.epdc;
-    bool erase_bonds;
-
-    struct pl_area image_area;
-
-    struct i2c_eeprom disp_eeprom = {
-            NULL, I2C_DISPINFO_EEPROM_ADDR, EEPROM_24AA256
-    };
-    struct i2c_eeprom hw_eeprom = {
-        &host_i2c, I2C_HWINFO_EEPROM_ADDR, EEPROM_CAT24M01,
-    };
-
+    printf("Hello World! log init done \n\n");
+   
     // Example code for MDBT42Q NFC module (nRF52832 chip)
     // configure Pin 25 as Output
-    nrf_gpio_cfg(25, NRF_GPIO_PIN_DIR_OUTPUT, NRF_GPIO_PIN_INPUT_DISCONNECT, NRF_GPIO_PIN_NOPULL, NRF_GPIO_PIN_H0H1,NRF_GPIO_PIN_NOSENSE);         
+    nrf_gpio_cfg(STATUS_PIN, NRF_GPIO_PIN_DIR_OUTPUT, NRF_GPIO_PIN_INPUT_DISCONNECT, NRF_GPIO_PIN_NOPULL, NRF_GPIO_PIN_H0H1,NRF_GPIO_PIN_NOSENSE);         
+    printf("gpio configured \n\n");
     Status_LED(1);
 
-   // Blink_LED(5,500);
     printf("SWK PU102 RevB - Software v02 with OTA DFU & Alexa \n");
 
-    // Initialize the async SVCI interface to bootloader before any interrupts are enabled. - 5.12.2020 SJE
-    printf("Initializing the async SVCI interface to bootloader\n");
-    err_code = ble_dfu_buttonless_async_svci_init();
-    APP_ERROR_CHECK(err_code);
-    if(err_code != NRF_SUCCESS){
-        printf("Error in Configuring BLE DFU Service \n");
-    }
-
     timers_init();
-    err_code = nrfx_gpiote_init(); // Initialize pin interrupt driver
-    APP_ERROR_CHECK(err_code);
-
-    saadc_init();
-    saadc_sampling_event_init();
-    saadc_sampling_event_enable();
-    printf("SAADC HAL simple example started.");
 
     //Initialize Bluetooth 
     power_management_init();
-    ble_stack_init(); //this line is stopping the code
+    ble_stack_init(); 
     gap_params_init();               
     gatt_init(); 
-    services_init();  //this line is also stopping the code                   
+    services_init();                     
     conn_params_init();                   
     peer_manager_init(); 
-    advertising_init(false); //this line is also stopping the code
+    advertising_init(false);
+    timers_init();
+    printf("timers init done \n\n");
+ 
+    //Initialize Bluetooth 
+    power_management_init();
+    printf("power management init done \n\n");
+    ble_stack_init(); 
+    gap_params_init();               
+    gatt_init(); 
+    printf("gatt init done \n\n");
+    services_init();                     
+    conn_params_init();                   
+    peer_manager_init(); 
+    printf("peer manager init \n\n");
+    advertising_init(false); 
     NVIC_SetPriority(SD_EVT_IRQn, 7);  //set lowest priority to BLE
     NRF_LOG_INFO("Bluetooth is Initialized");
     printf("Bluetooth is Initialized.\n");
 
     // Start Execution
     application_timers_start();
-    advertising_start(false);            //this line is alse stopping the code.....true on erasing bonds - meaning deleting every previous bonding information on nRF chip
-                                         
+    advertising_start(false);            //true on erasing bonds - meaning deleting every previous bonding information on nRF chip
                                          // false on erasing bonds - nRF will not delete any previous bonding information
 
     Status_LED(0);
