@@ -316,22 +316,6 @@ int main(void)
     advertising_init(false);
     timers_init();
     printf("timers init done \n\n");
- 
-    //Initialize Bluetooth 
-    power_management_init();
-    printf("power management init done \n\n");
-    ble_stack_init(); 
-    gap_params_init();               
-    gatt_init(); 
-    printf("gatt init done \n\n");
-    services_init();                     
-    conn_params_init();                   
-    peer_manager_init(); 
-    printf("peer manager init \n\n");
-    advertising_init(false); 
-    NVIC_SetPriority(SD_EVT_IRQn, 7);  //set lowest priority to BLE
-    NRF_LOG_INFO("Bluetooth is Initialized");
-    printf("Bluetooth is Initialized.\n");
 
     // Start Execution
     application_timers_start();
