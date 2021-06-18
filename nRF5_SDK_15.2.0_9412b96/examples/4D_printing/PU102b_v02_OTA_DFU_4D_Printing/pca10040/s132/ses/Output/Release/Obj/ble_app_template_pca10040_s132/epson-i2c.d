@@ -1,14 +1,26 @@
 Output/Release/Obj/ble_app_template_pca10040_s132/epson-i2c.o: \
+<<<<<<< HEAD
  C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-i2c.c \
  C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\pl_i2c.h \
  C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
+=======
+ C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-i2c.c \
+ C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\pl_i2c.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
+>>>>>>> c6f6c51dac9b7ced58d912daaad983cd6925abcb
  ../../../../../../integration/nrfx/legacy/nrf_drv_twi.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
+<<<<<<< HEAD
  C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
  C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
  C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
+=======
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
+>>>>>>> c6f6c51dac9b7ced58d912daaad983cd6925abcb
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
  ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
@@ -40,7 +52,11 @@ Output/Release/Obj/ble_app_template_pca10040_s132/epson-i2c.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/app_error.h \
+<<<<<<< HEAD
  C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
+=======
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
+>>>>>>> c6f6c51dac9b7ced58d912daaad983cd6925abcb
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
@@ -53,9 +69,18 @@ Output/Release/Obj/ble_app_template_pca10040_s132/epson-i2c.o: \
  ../../../../../../modules/nrfx/hal/nrf_twim.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_twi.h \
  ../../../../../../modules/nrfx/hal/nrf_twi.h \
+<<<<<<< HEAD
  C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/assert.h \
  C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-epdc.h \
  C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-s1d135xx.h \
  C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epdc.h \
  C\:\nordic\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\wflib.h \
  C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdlib.h
+=======
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/assert.h \
+ C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-epdc.h \
+ C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-s1d135xx.h \
+ C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epdc.h \
+ C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\wflib.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdlib.h
+>>>>>>> c6f6c51dac9b7ced58d912daaad983cd6925abcb
