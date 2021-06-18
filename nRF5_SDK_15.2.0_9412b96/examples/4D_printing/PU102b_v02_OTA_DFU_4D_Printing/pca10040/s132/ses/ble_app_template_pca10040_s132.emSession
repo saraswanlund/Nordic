@@ -70,7 +70,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="291" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="280" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="294" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="280" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="19" y="32" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.h" selected="0" top="9" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="5" y="1485" useTextEdit="1" openedFrom="C:/Nordic/nRF5_SDK_15.2.0_9412b96/examples/4D_printing/PU102b_v02_OTA_DFU_4D_Printing/main.c" useBinaryEdit="0" left="0" path="../../../bluetooth.c" selected="0" top="1471" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="43" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../bluetooth.h" selected="0" top="45" codecName="Default"/>
