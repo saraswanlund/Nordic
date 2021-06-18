@@ -1,16 +1,16 @@
 Output/Release/Obj/ble_app_template_pca10040_s132/sensor_accel.o: \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\sensor_accel.c \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/math.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdio.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/__crossworks.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/math.h \
  ../../../../../../components/boards/boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdint.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stddef.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdbool.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
  ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
@@ -63,7 +63,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/sensor_accel.o: \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epdpsu.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epdc.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\wflib.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdlib.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdlib.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\dispinfo.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h \
@@ -72,7 +72,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/sensor_accel.o: \
  ../../../../../../modules/nrfx/hal/nrf_gpiote.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/string.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/string.h \
  ../../../../../../components/libraries/util/sdk_os.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/libraries/util/sdk_macros.h \

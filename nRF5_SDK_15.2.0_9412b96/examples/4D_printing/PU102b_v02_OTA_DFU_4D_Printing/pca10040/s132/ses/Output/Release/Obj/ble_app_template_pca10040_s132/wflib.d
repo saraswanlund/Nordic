@@ -1,13 +1,13 @@
 Output/Release/Obj/ble_app_template_pca10040_s132/wflib.o: \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\wflib.c \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\wflib.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdlib.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdint.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdlib.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/__crossworks.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\dispinfo.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\pl_endian.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\lzss.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdio.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\eeprom-i2c.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
@@ -15,8 +15,8 @@ Output/Release/Obj/ble_app_template_pca10040_s132/wflib.o: \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stddef.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdbool.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
  ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
@@ -62,7 +62,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/wflib.o: \
  ../../../../../../modules/nrfx/hal/nrf_spi.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/string.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/string.h \
  ../../../../../../components/libraries/util/sdk_os.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/libraries/util/sdk_macros.h \

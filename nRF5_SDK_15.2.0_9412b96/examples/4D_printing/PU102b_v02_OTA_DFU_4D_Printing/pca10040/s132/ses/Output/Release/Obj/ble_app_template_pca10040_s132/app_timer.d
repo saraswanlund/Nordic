@@ -1,10 +1,10 @@
 Output/Release/Obj/ble_app_template_pca10040_s132/app_timer.o: \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\timer\app_timer.c \
  ../../../../../../components/libraries/util/sdk_common.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/string.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdint.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdbool.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/string.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/__crossworks.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
@@ -12,7 +12,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/app_timer.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_util.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stddef.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
  ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
@@ -29,11 +29,11 @@ Output/Release/Obj/ble_app_template_pca10040_s132/app_timer.o: \
  ../../../../../../components/libraries/util/nrf_assert.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\components\libraries\timer\app_timer.h \
  ../../../../../../components/libraries/util/app_error.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdio.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/libraries/util/nordic_common.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdlib.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdlib.h \
  ../../../../../../modules/nrfx/mdk/nrf_peripherals.h \
  ../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \

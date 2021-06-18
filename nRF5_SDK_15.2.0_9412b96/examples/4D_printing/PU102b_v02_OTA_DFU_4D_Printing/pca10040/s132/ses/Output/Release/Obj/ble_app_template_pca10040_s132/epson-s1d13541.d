@@ -2,14 +2,14 @@ Output/Release/Obj/ble_app_template_pca10040_s132/epson-s1d13541.o: \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-s1d13541.c \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epson-s1d135xx.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\epdc.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdint.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdint.h \
  C\:\Nordic\nRF5_SDK_15.2.0_9412b96\examples\4D_printing\PU102b_v02_OTA_DFU_4D_Printing\wflib.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdlib.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/__crossworks.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdlib.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/__crossworks.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdbool.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/string.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdbool.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/string.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
@@ -17,7 +17,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/epson-s1d13541.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_util.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stddef.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stddef.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
  ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
@@ -53,7 +53,7 @@ Output/Release/Obj/ble_app_template_pca10040_s132/epson-s1d13541.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/app_error.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50a/include/stdio.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50/include/stdio.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
  ../../../../../../components/libraries/log/nrf_log_default_backends.h \
  ../../../../../../components/libraries/delay/nrf_delay.h \
