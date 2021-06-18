@@ -1367,10 +1367,10 @@ static void reading_timer_event(void * p_context)
 
   if(BT_connectionG == 1){
       send_Indication_temp(m_conn_handle, &temperature);
-      nrf_delay_ms(200);
+      /*nrf_delay_ms(200);
       send_adc1(m_conn_handle, adc1);
       nrf_delay_ms(200);
-      send_adc2(m_conn_handle, adc2);
+      send_adc2(m_conn_handle, adc2);*/
       //update_Lid(ALS_get_data(&als_bt));
 
 //      if(bat_percent > 1){
